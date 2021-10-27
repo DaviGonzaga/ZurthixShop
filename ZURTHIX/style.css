@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #261132;
+    background: url("assets/bg.png") no-repeat center center fixed;
+}
+.content{
+    margin: 8%;
+    background-color: #fff;
+    padding: 4rem 1rem 4rem 1rem;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0, .05);
+    border-radius: 10px;
+}
+.signup-text{
+    font-style: normal;
+    
+}
+.form-control{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-color: #261132;
+    border-style: solid;
+    padding: 1px;
+    color: #495057;
+    height: auto;
+    border-radius: 15px;
+    background-color: #fff;
+    background-clip: padding-box;
+    text-indent: 12px;
+}
+.form-control:focus{
+    color: #495057;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+.btn-class{
+    border-color: #261132;
+    color: #261132;
+}
+.btn-class:hover{
+    background-color: gold;
+    color: black;
+}
+
+.products {
+    background: rgba(255,255,255, 0.3);
+    border-left: 2px solid gold;
+    box-shadow: 0 0 5px gold;
+    text-shadow: 0 0 2px black;
+}
+
+nav {
+    position: fixed;
+}
+
+.hd1 {
+    background: url(assets/tx2.jpg) no-repeat;
+    background-size: 1600px;
+    box-shadow: 0 0 20px gold;
+    text-shadow: 0 0 3px black;
+    border-bottom: 2px solid gold;
+    height: 55px;
+}
+
+.mainp{
+    background: url(assets/tx.jpg);
+    background-size: 700px;
+    border: 1px solid gold;
+    position: relative;
+    z-index: -1;
+}
+
+footer {
+    background: rgba(255,255,255, 0.5);
+}
+
+.cad {
+    border: 1px solid gold;
+}
+
+.maind {
+    background: url(assets/tx2.jpg) no-repeat center center;
+    background-size: 500px;
+    padding: 15px;
+    position: absolute;
+    width: 325px;
+    height: 170px;
+    margin-right: 2px;
+    border: 2px solid gold;
+    box-shadow: 0 0 5px gold;
+
+    right: 212px;
+    top: 309px;
+}
+
+.mp {
+    box-shadow: 0 0 50px gold;
+}
+
+.criadoresText {
+    background: rgba(255,255,255, 0.5);
+}
+
+.cTxt {
+    height: 43px;
+    background: url(assets/tx2.jpg);
+}
+
+.cTxt2{
+    background: rgba(255,255,255, 0.7);
+    border-left: 2px solid gold;
+}
+
+.carousel {
+    width: 1000px;
+    margin: auto;
+}
+
+.details {
+    color: black;
+}
